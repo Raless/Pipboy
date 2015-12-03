@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonRegister_click"
-        android:textColor="#00ff77"
+        android:background="#00ff77"
         />
 
 </RelativeLayout>
