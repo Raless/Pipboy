@@ -12,15 +12,22 @@
         <requestFocus />
     </EditText>
     <EditText
+
         android:password="true"
-        android:id="@+id/Password"
+        android:id="@+id/password"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:inputType="textVisiblePassword" />
+        android:inputType="textPassword" />
     <requestFocus />
     <Button
         android:id="@+id/login"
         android:text="@string/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/register"
+        android:text="@string/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
