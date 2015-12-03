@@ -25,13 +25,17 @@
         android:text="@string/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="buttonLogin_click"
         />
     <Button
         android:id="@+id/register"
         android:text="@string/register"
+        android:layout_below="@+id/password"
         android:layout_alignRight="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="buttonRegister_click"
+
         />
 
 </RelativeLayout>
