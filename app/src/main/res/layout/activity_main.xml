@@ -10,7 +10,7 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="00ff77">
+        android:textColor="#00ff77">
         <requestFocus />
     </EditText>
     <EditText
@@ -20,7 +20,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:textColor="00ff77" />
+        android:textColor="#00ff77" />
     <requestFocus />
     <Button
         android:id="@+id/login"
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonLogin_click"
-        android:textColor="00ff77"
+        android:background="#00ff77"
         />
     <Button
         android:id="@+id/register"
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonRegister_click"
-        android:textColor="00ff77"
+        android:textColor="#00ff77"
         />
 
 </RelativeLayout>
