@@ -14,12 +14,14 @@
     <EditText
         android:password="true"
         android:id="@+id/password"
+        android:layout_below="@+id/name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword" />
     <requestFocus />
     <Button
         android:id="@+id/login"
+        android:layout_below="@+id/password"
         android:text="@string/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,6 +29,7 @@
     <Button
         android:id="@+id/register"
         android:text="@string/register"
+        android:layout_alignRight="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
