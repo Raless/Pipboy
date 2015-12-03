@@ -1,12 +1,19 @@
 package be.hackthefuture.pipboy3000markv;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
+    
+
+    JSONObject json;
+
+    private static String url_login = "http://cloud.cozmos:2400/api/users/login";
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +45,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonLogin_click(View v){
+        User user = new User();
+
+        HttpReader httpReader = new HttpReader();
+        httpReader.setOnResultReadyListener(new HttpReader.OnResultReadyListener() {
+            @Override
+            public void resultReady(String result) {
+
+            }
+        });
+        httpReader.execute("http://eduphp.khk.be/PR2/execute.php?page=androidvak&klasId=11");
+
 
     }
 
