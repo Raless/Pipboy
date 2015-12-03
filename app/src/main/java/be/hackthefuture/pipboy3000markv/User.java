@@ -15,7 +15,6 @@ public class User {
     public User(String email, Base64 password) {
 		this.email = email;
 		this.password = password;
-
 	}
     
     public String getEmail() {
@@ -33,7 +32,5 @@ public class User {
 	public void setNaam(Base64 password) {
 		this.password = password;
 	}
-	
 
-    
 }
