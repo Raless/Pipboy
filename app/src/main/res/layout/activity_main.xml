@@ -12,7 +12,6 @@
         <requestFocus />
     </EditText>
     <EditText
-
         android:password="true"
         android:id="@+id/password"
         android:layout_width="fill_parent"
