@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        custom = Typeface.createFromAsset(getAssets(),"fonts/fof.ttf");
+        custom = Typeface.createFromAsset(getBaseContext().getAssets(),"fonts/fof.ttf");
         setFonts();
     }
 
